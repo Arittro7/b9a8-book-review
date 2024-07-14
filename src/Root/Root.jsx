@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar/Navbar";
 
 const Root = () => {
   return (
-    <div className="md:max-w-7xl mx-auto Playfair">
+    <div className="md:max-w-7xl mx-auto Poppins">
       <Navbar></Navbar>
       <Outlet></Outlet>
     </div>
