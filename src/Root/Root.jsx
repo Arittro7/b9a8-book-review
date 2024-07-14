@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar/Navbar";
 
 const Root = () => {
   return (
-    <div>
+    <div className="md:w-[1300px] mx-auto">
       <Navbar></Navbar>
       <Outlet></Outlet>
     </div>

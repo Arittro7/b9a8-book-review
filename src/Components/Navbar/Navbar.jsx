@@ -59,7 +59,7 @@ const Navbar = () => {
 
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <p className="text-2xl font-bold">Book<span className="text-orange-500">Parliament</span></p>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -67,8 +67,9 @@ const Navbar = () => {
       {links}
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
+  <div className="navbar-end gap-3">
+    <a className="btn bg-green-500 text-white">Sign In</a>
+    <a className="btn  bg-purple-400 text-white">Sign Up</a>
   </div>
 </div>
   );
